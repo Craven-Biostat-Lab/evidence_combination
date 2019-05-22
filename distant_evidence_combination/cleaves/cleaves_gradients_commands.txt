@@ -1,0 +1,7 @@
+python undirected_prediction_builder_labelled.py cleaves/cleaves_gradients.txt cleaves/cleaves_gradients_linear.txt cleaves/cleaves_gradients_hybrid.txt cleaves/cleaves_gradients_noisy_or.txt 
+
+python prediction_combiner_labelled.py cleaves/cleaves_gradients_noisy_or.txt cleaves/cleaves_gradients_noisy_or_pr.txt
+
+python prediction_combiner_labelled.py cleaves/cleaves_gradients_hybrid.txt cleaves/cleaves_gradients_hybrid_pr.txt
+
+

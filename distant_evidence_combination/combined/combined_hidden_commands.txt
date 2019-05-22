@@ -1,0 +1,7 @@
+python undirected_prediction_builder_labelled.py binds/binds_hidden.txt binds/binds_hidden_linear.txt binds/binds_hidden_hybrid.txt binds/binds_hidden_noisy_or.txt 
+
+python prediction_combiner_labelled.py binds/binds_hidden_noisy_or.txt binds/binds_hidden_noisy_or_pr.txt
+
+python prediction_combiner_labelled.py binds/binds_hidden_hybrid.txt binds/binds_hidden_hybrid_pr.txt
+
+

@@ -1,0 +1,7 @@
+python undirected_prediction_builder_labelled.py colocalizes/colocalizes_hidden.txt colocalizes/colocalizes_hidden_linear.txt colocalizes/colocalizes_hidden_hybrid.txt colocalizes/colocalizes_hidden_noisy_or.txt 
+
+python prediction_combiner_labelled.py colocalizes/colocalizes_hidden_noisy_or.txt colocalizes/colocalizes_hidden_noisy_or_pr.txt
+
+python prediction_combiner_labelled.py colocalizes/colocalizes_hidden_hybrid.txt colocalizes/colocalizes_hidden_hybrid_pr.txt
+
+

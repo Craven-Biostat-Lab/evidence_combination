@@ -1,0 +1,7 @@
+python undirected_prediction_builder_labelled.py degrades/degrades_hidden.txt degrades/degrades_hidden_linear.txt degrades/degrades_hidden_hybrid.txt degrades/degrades_hidden_noisy_or.txt 
+
+python prediction_combiner_labelled.py degrades/degrades_hidden_noisy_or.txt degrades/degrades_hidden_noisy_or_pr.txt
+
+python prediction_combiner_labelled.py degrades/degrades_hidden_hybrid.txt degrades/degrades_hidden_hybrid_pr.txt
+
+

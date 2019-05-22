@@ -1,0 +1,7 @@
+python undirected_prediction_builder_labelled.py downregulates/downregulates_gradients.txt downregulates/downregulates_gradients_linear.txt downregulates/downregulates_gradients_hybrid.txt downregulates/downregulates_gradients_noisy_or.txt 
+
+python prediction_combiner_labelled.py downregulates/downregulates_gradients_noisy_or.txt downregulates/downregulates_gradients_noisy_or_pr.txt
+
+python prediction_combiner_labelled.py downregulates/downregulates_gradients_hybrid.txt downregulates/downregulates_gradients_hybrid_pr.txt
+
+

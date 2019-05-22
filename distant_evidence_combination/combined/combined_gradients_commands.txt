@@ -1,0 +1,7 @@
+python undirected_prediction_builder_labelled.py binds/binds_gradients.txt binds/binds_gradients_linear.txt binds/binds_gradients_hybrid.txt binds/binds_gradients_noisy_or.txt 
+
+python prediction_combiner_labelled.py binds/binds_gradients_noisy_or.txt binds/binds_gradients_noisy_or_pr.txt
+
+python prediction_combiner_labelled.py binds/binds_gradients_hybrid.txt binds/binds_gradients_hybrid_pr.txt
+
+
